@@ -1,0 +1,205 @@
+/* Carousel base class */
+.carousel {
+  min-height: 400px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  min-height: 400px;
+  background-color: #88BADB;
+  vertical-align: top;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 400px;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    color: #4DB8FF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #71C6FF;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #4DB8FF;
+    background-color: #4DB8FF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #4DB8FF;
+}
+
+.navbar-default .nav li a {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 12pt;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #4DB8FF;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #4DB8FF;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #71C6FF;
+}
+
+@media(min-width:768px) {
+
+	
+	body {
+		margin-top:70px;
+	}
+
+    .navbar-default {
+        padding: 10px 0;
+        border: 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+    
+    .navbar-default {
+    	padding-left:10%;
+    	padding-right:10%;
+    }
+    
+    .navbar-nav {
+    	
+    	margin-right: 10%;
+    	float:right
+    }
+}
+
+.navbar-header {
+	padding-left: 10%;
+}
+
+.dropdown-menu {
+	background-color: #222;
+}
+
+.dropdown-toggle:hover, .open .dropdown-toggle {
+	background:#222 !important;
+	color: #4DB8FF !important;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #222;
+    color:#ffffff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+	color: #4DB8FF !important;
+}
+
+.dropdown-header {
+	color: #888;
+}
+
+li.divider{
+	background-color: #555 !important;
+}
+
+
+.cookie {
+	text-align:center;
+}
+
+.cookie h3 {
+	font-weight:300;
+	font-size:14pt;
+}
+
+.subtitle {
+	text-align:center;
+}
+
+.subtitle p {
+	font-size:12pt;
+}
+
+.subtitle h3 {
+	font-weight:350;
+	font-size:18pt;
+}
+
+.img-full {
+	max-width:100%;
+}
+
+.navbar-brand {
+	font-size: 26pt !important;
+}
+
+.split {
+	text-align: center !important;
+}	
+
+.knife > img{
+	margin-top:22px;
+}
+
+.firstThing {
+	margin-top:50px;
+}
+
